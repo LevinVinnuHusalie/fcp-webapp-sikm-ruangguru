@@ -9,7 +9,7 @@ var (
 
 func SetUrl(url string) string {
 	if BaseURL == "" {
-		BaseURL = "http://localhost:8080"
+		BaseURL = "https://fcp-webapp-sikm-ruangguru-production.up.railway.app/"
 	}
 
 	return BaseURL + url

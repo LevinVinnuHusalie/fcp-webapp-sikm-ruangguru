@@ -62,11 +62,11 @@ func main() {
 		router.Use(gin.Recovery())
 
 		dbCredential := model.Credential{
-			Host:         "localhost",
+			Host:         "containers-us-west-42.railway.app",
 			Username:     "postgres",
-			Password:     "postgres",
-			DatabaseName: "kampusmerdeka",
-			Port:         5432,
+			Password:     "laytmM6SOj8mD5d5ChX7",
+			DatabaseName: "railway",
+			Port:         5629,
 			Schema:       "public",
 		}
 
